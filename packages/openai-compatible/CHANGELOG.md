@@ -1,5 +1,11 @@
 # @ai-sdk/openai-compatible
 
+## 1.0.5
+
+### Patch Changes
+
+- 4ecc5ab: fix(providers): use convertToBase64 for Uint8Array image parts to produce valid data URLs; keep mediaType normalization and URL passthrough
+
 ## 1.0.4
 
 ### Patch Changes
